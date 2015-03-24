@@ -1,0 +1,55 @@
+body {
+  font-family: Georgia, serif;
+  color: black;
+  background-color: white;
+  box-shadow: 0 0 1em black;
+  -moz-box-shadow: 0 0 1em black;
+  -webkit-box-shadow: 0 0 1em black;
+}
+#editable-math, .mathquill-editable {
+  border: 1px solid #fff !important;
+}
+.mathquill-editable.hasCursor {
+  //background-color: #F7f7f7;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+#latex-source {
+  border: none !important;
+  padding: 7px !important;
+  width: 100% !important;
+}
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+h1 small {
+  font-size: 60%;
+}
+code {
+  font: 100% monospace;
+  background: #DDD;
+  border-radius: .3em;
+  -moz-border-radius: .3em;
+  -webkit-border-radius: .3em;
+  padding: 0 .3em;
+}
+code:hover {
+  color: #DDD;
+  background: #222;
+}
+a {
+  color: mediumblue;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-shadow: #40F 0 0 .2em;
+}
+a:active {
+  color: #400;
+  text-shadow: red 0 0 .2em;
+}
+ul {
+  padding-left: 1em;
+}
